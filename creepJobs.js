@@ -1,4 +1,4 @@
-creepStatus = require('creepStatus');
+var creepStatus = require('creepStatus');
 
 module.exports = {
     creepMove : function (creep, destination, path){
