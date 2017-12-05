@@ -2,7 +2,9 @@ var spawnRole = require('spawnRole');
 
 module.exports = {
     checkStatus : function (creep){
+        
         return creep.memory.status = Memory.statusOptions.GOOD;
+        
         if (!creep.memory.status){
             creep.memory.status = Memory.statusOptions.GOOD;
         }
@@ -67,7 +69,7 @@ module.exports = {
             shuttle.memory.status = Memory.statusOptions.OBSOLETE;
         }
         
-        console.log('creeps Obsolete.')
+        console.log('creeps Obsolete.');
     },
     deleteDeadCreeps : function(creepNames){
         //console.log(JSON.stringify(creepNames));
