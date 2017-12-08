@@ -1,3 +1,5 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
+
 var spawnRole = require('spawnRole');
 
 module.exports = {

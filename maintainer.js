@@ -1,3 +1,5 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
+
 module.exports = function (creep, charger, roomInfo, creepIndex) {
 	//console.log('maintaining');
 	if(creep.carry.energy == 0) {

@@ -1,3 +1,5 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
+
 module.exports = function (creep) {
 
     var targets = creep.room.find(FIND_HOSTILE_CREEPS);

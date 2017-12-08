@@ -1,3 +1,5 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
+
 var contains = function (arr, value){
     for (var cI = 0; cI < arr.length; cI++){
         if (arr[cI] === value){

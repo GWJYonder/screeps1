@@ -1,3 +1,5 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
+
 var auxFlagDistance = 4;
 var attackFlagDistance = 6;
 

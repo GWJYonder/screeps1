@@ -1,3 +1,5 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
+
 var initialize = require('initialize');
 
 var roomManager = require('roomManager');

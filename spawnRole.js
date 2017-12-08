@@ -1,3 +1,5 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
+
 //require('spawnRole')('Spawn1', 'harvester');
 
 module.exports = function (spawnId, roleName, spawnCode) {

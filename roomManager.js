@@ -1,3 +1,5 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
+
 //require('roomManager').addSource(0, 'sourceId', 'destinationId', 'spawnId', 0);
 var spawnRole = require('spawnRole');
 var creepJobs = require('creepJobs');

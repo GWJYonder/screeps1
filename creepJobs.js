@@ -1,3 +1,5 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
+
 var creepStatus = require('creepStatus');
 
 module.exports = {

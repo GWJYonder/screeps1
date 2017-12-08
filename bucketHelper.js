@@ -1,3 +1,4 @@
+/// <reference path="..\..\ScreepsAutocomplete\_references.js" />
 //require('bucketHelper').addBucket(Memory.roomInfos[1].bucketInfos, bucketId, [previousBucketIds], [nextBucketIds]);
 
 module.exports = {
@@ -14,6 +15,7 @@ module.exports = {
             previousIds : previousBucketIds,
             nextIds : nextBucketIds
         });
+        
         return 'added new bucket';
     },
     findPreviousInfo : function(bucketInfoList, previousId){
